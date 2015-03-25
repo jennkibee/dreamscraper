@@ -89,7 +89,7 @@ Scraper.prototype.parsePage = function (html) {
               source: this.url
             };
 
-            //self.emit('complete', model);
+            self.emit('complete', model);
           } 
           
       });

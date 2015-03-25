@@ -17,11 +17,10 @@ function generateUrls() {
 
   var j;
 
-
   for (j=0; j < alpha.length; j++) {
+    console.log(url + alpha[j] + '/');
     urls.push(url + alpha[j] + '/');
   }
-  
 
   return urls;
 }
